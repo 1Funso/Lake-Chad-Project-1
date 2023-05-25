@@ -34,3 +34,56 @@ header {
 header h1 {
     margin: 0;
 }
+
+/* Styling for the mobile menu icon */
+.mobile-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('lake-chad.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the hero section title */
+.hero h2 {
+    color: rgb(209, 14, 14);
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* Styling for the main content area */
+main {
+    padding: 2rem;
+}
+
+/* Styling for the section titles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Styling for the sections */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Styling for the content sections with flex layout */
+.wildlife,
+.tourism,
+.challenges,
+.conservation-projects,
+.get-involved {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
