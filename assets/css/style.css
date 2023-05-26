@@ -1,8 +1,17 @@
 /* Basic styling for the body element */
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
 }
 
 /* Styling for the header element */
@@ -44,7 +53,7 @@ header h1 {
 
 /* Styling for the hero section */
 .hero {
-    background-image: url('lake-chad.jpg');
+    background-image: url(assets/images/lake-chad.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
