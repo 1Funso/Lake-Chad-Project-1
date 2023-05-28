@@ -74,6 +74,7 @@ header h1 {
     position: relative;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 .hero h1 {
@@ -246,7 +247,7 @@ header h2+p {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #555555;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 /* Styling for the strong emphasis in the wildlife and tourism section */
@@ -287,7 +288,7 @@ footer {
     align-items: center;
     position: relative;
     z-index: 2;
-    margin-top: -1rem;
+    margin-top: -2rem;
     /* Pull the footer section up by 1rem to remove the gap */
 }
 
