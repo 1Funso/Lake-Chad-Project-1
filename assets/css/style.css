@@ -117,10 +117,10 @@ section.intro .scroll-down-button {
 /* Styling for the hero section title */
 .hero h1 {
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     /* Responsive font size */
-    text-align: center;
+    text-align: left;
 }
 
 /* Styling for the main content area */
@@ -132,7 +132,7 @@ main {
 
 /* Styling for the section titles */
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -142,22 +142,53 @@ section {
     text-align: justify;
 }
 
-/* Styling for the content sections with flex layout */
+/* Styling for the h2 and p elements on the home page */
+header h2+p {
+    font-size: 2rem;
+}
+
+/* Styling for the wildlife and tourism sections */
 .wildlife,
-.tourism,
-.challenges,
-.conservation-projects,
-.get-involved {
+.tourism {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    align-items: flex-start;
+}
+
+/* Styling for the section content */
+.wildlife .section-content,
+.tourism .section-content {
+    flex: 1 1 100%;
+    text-align: left;
 }
 
 /* Styling for the image containers */
-.img-container {
-    width: 100%;
-    max-width: 300px;
+.wildlife .img-container,
+.tourism .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-bottom: 1rem;
+}
+
+/* Styling for the images inside the containers */
+.wildlife .img-container img,
+.tourism .img-container img {
+    width: calc(50% - 0.5rem);
+    height: auto;
+    object-fit: cover;
+    border: none;
+}
+
+
+/* Styling for the text container */
+.wildlife .text-container,
+.tourism .text-container {
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    /* Add a margin to separate the text from the images */
 }
 
 footer {
