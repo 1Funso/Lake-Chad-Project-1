@@ -1,39 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lake Chad Conservation Project Website
 
-Welcome,
+Hello and welcome to the repository of the Lake Chad Conservation Project website. I designed this platform to shed light on the pressing conservation needs of Lake Chad, a crucial and vulnerable ecosystem located in Africa.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Purpose
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+My goal with this project is to highlight the severe ecological problems Lake Chad is currently experiencing due to climate change and human activities. The website serves as an informative and inspiring hub, offering detailed information about the lake's history, the threats it's presently dealing with, and the ongoing efforts to conserve it. It also shows visitors how they can contribute to this cause.
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- **Stunning Visuals:** This is a robust gallery brimming with images that encapsulate the extraordinary beauty and biodiversity of Lake Chad, thus underlining the significance of conservation.
+- **Informative Content:** I've provided rich and engaging content about Lake Chad's history, the challenges it's now facing, and the measures being taken to conserve it.
+- **Engagement Opportunities:** The website encourages visitors to get involved and help contribute to the conservation cause, ensuring Lake Chad's preservation for future generations.
 
-`python3 -m http.server`
+## Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The website employs a clean and professional design, with a substantial focus on visual content. I've used responsive design elements to ensure a consistent user experience on various devices, from desktop computers to mobile phones.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Fonts:** I have chosen the "Arial, sans-serif" font family for its readability and simplicity.
 
-`http_server`
+## Contributing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I warmly welcome any contributions to this project. Please fork this repository and submit a pull request with your proposed changes. If you have any questions or need more information, don't hesitate to open an issue.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Technology Used
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **Languages:** HTML5, CSS3
+- **Platforms/Devices:** I manually tested the website on several devices including Apple iPhone X, Apple iPad, Apple MacBook Air, Samsung Galaxy Tab S7+, Ultrawide display 3440x1440, and classic 16:9 2560x1440 display. The results were satisfactory, showing effective responsiveness on all tested screen sizes.
 
-To log into the Heroku toolbelt CLI:
+## Deployment
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I have deployed this project on GitHub Pages. Please visit [https://github.com/1Funso/Lake-Chad-Project-1](https://github.com/1Funso/Lake-Chad-Project-1) to access the live project.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Responsiveness
 
----
-
-Happy coding!
+I assure you that this website has been fully optimized to ensure responsiveness and seamless functionality across a variety of device sizes and platforms.
