@@ -29,7 +29,7 @@ I warmly welcome any contributions to this project. Please fork this repository 
 
 ## Deployment
 
-I have deployed this project on GitHub Pages. Please visit [https://github.com/1Funso/Lake-Chad-Project-1](https://github.com/1Funso/Lake-Chad-Project-1) to access the live project.
+I have deployed this project on GitHub Pages. Please visit [the source code](https://github.com/1Funso/Lake-Chad-Project-1) or [the live project](https://1funso.github.io/Lake-Chad-Project-1/) to access it.
 
 ## Responsiveness
 
