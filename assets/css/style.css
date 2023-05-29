@@ -193,6 +193,7 @@ header h2+p {
     flex-wrap: wrap;
     gap: 1rem;
     align-items: flex-start;
+    margin-bottom: 0;
 }
 
 /* Styling for the section content */
@@ -289,8 +290,9 @@ footer {
     position: relative;
     z-index: 2;
     margin-top: -2rem;
-    /* Pull the footer section up by 1rem to remove the gap */
+    height: auto;
 }
+
 
 /* Styling for the logo in the footer */
 .logo {
