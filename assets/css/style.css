@@ -125,6 +125,7 @@
         font-size: 2rem;
     }
 
+
     /* Styling for the heading in the intro section */
     .intro h2 {
         font-size: 2.5rem;
@@ -225,10 +226,22 @@
         color: #003049;
     }
 
-    /* Styling for the satellite image and caption in the Environmental challenges section */
+    /* Styling for the satellite image and caption in the  in the Environmental challenges section */
     .full-width-image {
         width: 100%;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .satellite-image-caption {
+        font-size: 0.9em;
+        color: #666;
+        text-align: center;
+        line-height: 1.4;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
     }
 
     /* Styling for the footer section */
@@ -264,4 +277,191 @@
         text-align: center;
         padding-top: 1rem;
         display: block;
+    }
+
+    /* Media Query for desktop, tablets, and mobile phones */
+    @media only screen and (max-width: 1200px) {
+
+        /* Styling for the hero and scroll down button section */
+        .hero,
+        .full-width-image {
+            height: auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+
+        .scroll-down-button {
+            font-size: 1.5rem;
+        }
+
+        /* Styling for the section titles */
+        h2 {
+            font-size: 2rem;
+        }
+
+        /* Styling for the paragraphs */
+        p {
+            font-size: 1rem;
+        }
+
+        /* Styling for the images inside the containers */
+        .wildlife .img-container img,
+        .tourism .img-container img {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 920px) {
+
+        /* Styling for the navigation button */
+        .topnav {
+            text-align: center;
+            justify-content: flex-end;
+            padding: 14px 8px;
+        }
+
+        .topnav a {
+            float: none;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the hero and scroll down button section */
+        .hero,
+        .full-width-image {
+            height: auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .scroll-down-button {
+            font-size: 1.2rem;
+        }
+
+        /* Styling for the section titles */
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        /* Styling for the paragraphs */
+        p {
+            font-size: 1rem;
+        }
+
+        /* Hide the scroll-down button */
+        .scroll-down-button {
+            display: none;
+        }
+
+        header h1 {
+            font-size: 48px;
+        }
+
+        /* Hide white space after footer */
+        body {
+            padding-bottom: 0;
+        }
+
+        /* Styling for the environmental challenges section */
+        .environmental-challenges h2 {
+            text-align: left;
+            margin-top: 0;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        /* Styling for the navigation button */
+        .topnav {
+            text-align: center;
+            justify-content: flex-end;
+            padding: 14px 8px;
+        }
+
+        .topnav a {
+            float: none;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the hero and scroll down button section */
+        .hero,
+        .full-width-image {
+            height: auto;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .scroll-down-button {
+            font-size: 1rem;
+        }
+
+        /* Styling for the section titles */
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        /* Styling for the paragraphs */
+        p {
+            font-size: 0.9rem;
+        }
+
+        /* Hide the scroll-down button */
+        .scroll-down-button {
+            display: none;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        /* Hide white space after footer */
+        body {
+            padding-bottom: 0;
+        }
+
+        /* Styling for the environmental challenges section */
+        .environmental-challenges h2 {
+            text-align: left;
+            margin-top: 0;
+        }
+    }
+
+    /* Adjust for a better fit on 375px devices */
+    @media screen and (max-width: 420px) {
+        .topnav {
+            justify-content: flex-end;
+            padding: 14px 8px;
+        }
+
+        .topnav a {
+            padding: 8px;
+            font-size: 14px;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        footer {
+            font-size: 8px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        /* Styling for the environmental challenges section */
+        .environmental-challenges h2 {
+            text-align: left;
+            margin-top: 0;
+        }
     }
